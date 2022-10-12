@@ -1,0 +1,112 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,500&display=swap');
+/* Place the menu to the right of the page. */
+.menu {
+    /* margin: auto 0; */
+    align-items: flex-end;
+    right: 50%;
+}
+
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.menu-list li {
+    padding: 0 17px;
+
+
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: rgb(4, 27, 2);
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    background-image: url("https://i.postimg.cc/jdjn0KkD/1105206-illustration-digital-art-minimalism-grass-green-yellow-simple-triangle-pattern-texture-circl.png");
+    background-size:cover;
+    width: fit-content;
+    height: fit-content;
+    overflow-y: hidden;
+}
+
+.logo {
+    width: 70px;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 15px;
+    gap: 60%;
+}
+html{
+    font-family:'Roboto' ;
+}
+
+
+.menu-list ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.menu-list li a:hover{
+    color: rgb(59, 200, 16);
+}
+.profile{
+    border-radius: 50%;
+    width: 440px;
+    position: relative;
+    left: 950px;
+    top: 50px;
+}
+section{
+    position: relative;
+    bottom: 400px;
+    left:150px;
+    font-size: 33px;
+    font-weight: bold;
+}
+h2{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(5, 46, 3);
+}
+.link li{
+           text-decoration: none;
+           position: relative;
+           left: 95px;
+           list-style: none;       
+           border: 2px solid rgb(5, 21, 1);
+           border-radius: 12px;
+           padding: 5px;
+           width: fit-content;
+           background-color: rgb(5, 21, 1) ;
+}
+.link li a{
+color: white;
+text-decoration: none;
+font-family:'Roboto' ;
+font-weight: lighter;
+}
+footer{
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    left: 100%;
+    bottom: 210px;
+}
+*{
+    height: fit-content;
+}
